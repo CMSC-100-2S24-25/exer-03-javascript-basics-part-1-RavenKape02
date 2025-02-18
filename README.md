@@ -1,1 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2EnW9dmo)
+**Name**
+- John Raven F. Caduyac
+**Degree Program**
+- BS Computer Science
+**Student Number**
+- 2022 - 69868
+**Key Takeaways**
+- It was difficult coding the string checker for atleast 1 number, uppercase, and lowercase
+- the rest of the code was just combining the previous functions
+- the reverse function is just a combination of for loop and string concatenation methods
+**References**
+- [For concatenating string](https://stackoverflow.com/questions/31845895/how-can-i-build-concatenate-strings-in-javascript)
