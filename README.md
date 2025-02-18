@@ -7,6 +7,9 @@
 **Student Number**
 - 2022 - 69868
 
+**Description**
+- Simple program for validating passwords, reversing, and storing passwords and username in an object.
+
 **Key Takeaways**
 - It was difficult coding the string checker for atleast 1 number, uppercase, and lowercase
 - the rest of the code was just combining the previous functions
