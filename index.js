@@ -63,11 +63,11 @@ function storePassword(username, password1, password2){
     return nameAndNewPass;
 }
 
-console.log(validatePassword("helloworld", "hello")); //returns false
-console.log(validatePassword("hello", "hello")); //returns false
-console.log(validatePassword("hello1234", "hello1234")); //returns false
-console.log(validatePassword("Hello1234", "Hello1234")); //returns true
-console.log(validatePassword("HELLO1234", "HELLO1234")); //returns false
+console.log("Comparing \"helloworld\" and \"hello\", result is: "+validatePassword("helloworld", "hello")); //returns false
+console.log("Comparing \"hello\" and \"hello\", result is: "+validatePassword("hello", "hello")); //returns false
+console.log("Comparing \"hello1234\" and \"hello1234\", result is: "+validatePassword("hello1234", "hello1234")); //returns false
+console.log("Comparing \"Hello1234\" and \"Hello1234\", result is: "+validatePassword("Hello1234", "Hello1234")); //returns true
+console.log("Comparing \"HELLO1234\" and \"HELLO1234\", result is: "+validatePassword("HELLO1234", "HELLO1234")); //returns false
 
 console.log(storePassword("John", "Pass1234", "Pass1234"));
 console.log(storePassword("John", "Pass123", "Pass12345"));
